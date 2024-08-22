@@ -4,8 +4,8 @@ const Summary = () => {
 
     return (
         <section>
-            <div className={`max-w-[20.5rem] mx-auto mt-8 |  | grid | `}>
-                <h4 >
+            <div className={`max-w-[19.5rem] mx-auto mt-6 |  | grid | `}>
+                <h4 className={`mb-6 | text-xl text-neutral-dark-gray-blue font-bold |  | `}>
                     {summaryTitle}
                 </h4>
 
@@ -13,21 +13,22 @@ const Summary = () => {
                     summaryInfo.map((summary) => (
                         <div 
                             key={summary.category}
-                            className={` |  | flex justify-between items-center | `}
+                            className={`px-4 py-4 mb-4 | ${summary.bgColor} | flex justify-between items-center rounded-lg | `}
                         >
                             <div className={` |  | flex justify-center items-center | `}>
                                 <img 
                                     src={summary.icon} 
+                                    className={`mr-3 |  |  | `}
                                 />
 
-                                <h5>
+                                <h5 className={` | text-base ${summary.textColor} font-semibold |  | `}>
                                     {summary.category}
                                 </h5>
                             </div>
 
                             <div>
-                                <p>
-                                    <span>
+                                <p className={` | text-base text-slate-400/100 font-bold |  | `}>
+                                    <span className={` | text-neutral-dark-gray-blue font-extrabold |  | `}>
                                         {summary.score} {" "} 
                                     </span>
                                     / 100
@@ -36,6 +37,10 @@ const Summary = () => {
                         </div>
                     ))
                 }
+
+                <button className={`py-4 mt-2 mb-6 | text-lg text-neutral-white bg-neutral-dark-gray-blue font-bold | grid place-content-center rounded-full | `}>
+                    Continue
+                </button>
             </div>
         </section>
     )

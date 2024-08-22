@@ -19,25 +19,29 @@ const summaryInfo: SummaryInfoType[] = [
         category: "Reaction",
         score: 80,
         icon: reactionIcon,
-        bgColor: "primary-light-red"
+        bgColor: "bg-primary-light-red/10",
+        textColor: "text-primary-light-red"
       },
       {
         category: "Memory",
         score: 92,
         icon: memoryIcon,
-        bgColor: "primary-orangey-yellow"
+        bgColor: "bg-primary-orangey-yellow/10",
+        textColor: "text-primary-orangey-yellow"
       },
       {
         category: "Verbal",
         score: 61,
         icon: verbalIcon,
-        bgColor: "primary-green-teal"
+        bgColor: "bg-primary-green-teal/10",
+        textColor: "text-primary-green-teal"
       },
       {
         category: "Visual",
         score: 72,
         icon: visualIcon,
-        bgColor: "primary-cobalt-blue"
+        bgColor: "bg-primary-cobalt-blue/10",
+        textColor: "text-primary-cobalt-blue"
       }
 ]
 
