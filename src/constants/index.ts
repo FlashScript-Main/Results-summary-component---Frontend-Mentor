@@ -20,28 +20,32 @@ const summaryInfo: SummaryInfoType[] = [
         score: 80,
         icon: reactionIcon,
         bgColor: "bg-primary-light-red/10",
-        textColor: "text-primary-light-red"
+        textColor: "text-primary-light-red",
+        delay: "slideInUp-1"
       },
       {
         category: "Memory",
         score: 92,
         icon: memoryIcon,
         bgColor: "bg-primary-orangey-yellow/10",
-        textColor: "text-primary-orangey-yellow"
+        textColor: "text-primary-orangey-yellow",
+        delay: "slideInUp-2"
       },
       {
         category: "Verbal",
         score: 61,
         icon: verbalIcon,
         bgColor: "bg-primary-green-teal/10",
-        textColor: "text-primary-green-teal"
+        textColor: "text-primary-green-teal",
+        delay: "slideInUp-3"
       },
       {
         category: "Visual",
         score: 72,
         icon: visualIcon,
         bgColor: "bg-primary-cobalt-blue/10",
-        textColor: "text-primary-cobalt-blue"
+        textColor: "text-primary-cobalt-blue",
+        delay: "slideInUp-4"
       }
 ]
 

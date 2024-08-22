@@ -17,4 +17,5 @@ export type SummaryInfoType = {
     icon: string;
     bgColor: string;
     textColor: string;
+    delay: string;
 }
