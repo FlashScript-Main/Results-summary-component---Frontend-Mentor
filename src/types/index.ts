@@ -1,14 +1,18 @@
 export type StringType = string;
 
-export type FeatureInfoType = {
+export type ResultInfoType = {
     id: number;
-    listNumber: string;
-    title: string;
-    desc: string;
+    resultTitle: string;
+    resultScore: number;
+    resultValue: string;
+    resultGrade: string;
+    resultDescription1: string;
+    resultDescription2: string;
+    resultDescriptionVaue: number;
 }
 
-export type FooterIconsType = {
-    id: number;
+export type SummaryInfoType = {
+    category: string;
+    score: number;
     icon: string;
-    alt: string;
 }

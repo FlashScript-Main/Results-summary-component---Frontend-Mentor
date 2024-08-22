@@ -1,23 +1,11 @@
-import heroPatternLeft from './bg-pattern-1.svg';
-import heroPatternRight from './bg-pattern-2.svg';
-import testimonialPattern from './bg-pattern-3.svg';
-import facebookIcon from './icon-facebook.svg';
-import instagramIcon from './icon-instagram.svg';
-import twitterIcon from './icon-twitter.svg';
-import founderImage from './image-founder.webp';
-import phoneImage from './image-hero.webp';
-import logoDark from './logo-dark.svg';
-import logoLight from './logo-light.svg';
+import memoryIcon from './icon-memory.svg';
+import reactionIcon from './icon-reaction.svg';
+import verbalIcon from './icon-verbal.svg';
+import visualIcon from './icon-visual.svg';
 
 export {
-    facebookIcon,
-    founderImage,
-    heroPatternLeft,
-    heroPatternRight,
-    instagramIcon,
-    logoDark,
-    logoLight,
-    phoneImage,
-    testimonialPattern,
-    twitterIcon,
+    memoryIcon,
+    reactionIcon,
+    verbalIcon,
+    visualIcon
 }
