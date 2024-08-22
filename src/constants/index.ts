@@ -16,24 +16,28 @@ const resultInfo: ResultInfoType[] = [
 const summaryTitle: StringType = "Summary";
 const summaryInfo: SummaryInfoType[] = [
     {
-        "category": "Reaction",
-        "score": 80,
-        "icon": reactionIcon
+        category: "Reaction",
+        score: 80,
+        icon: reactionIcon,
+        bgColor: "primary-light-red"
       },
       {
-        "category": "Memory",
-        "score": 92,
-        "icon": memoryIcon
+        category: "Memory",
+        score: 92,
+        icon: memoryIcon,
+        bgColor: "primary-orangey-yellow"
       },
       {
-        "category": "Verbal",
-        "score": 61,
-        "icon": verbalIcon
+        category: "Verbal",
+        score: 61,
+        icon: verbalIcon,
+        bgColor: "primary-green-teal"
       },
       {
-        "category": "Visual",
-        "score": 72,
-        "icon": visualIcon
+        category: "Visual",
+        score: 72,
+        icon: visualIcon,
+        bgColor: "primary-cobalt-blue"
       }
 ]
 

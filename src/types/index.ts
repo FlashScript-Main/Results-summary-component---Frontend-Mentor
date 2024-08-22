@@ -15,4 +15,5 @@ export type SummaryInfoType = {
     category: string;
     score: number;
     icon: string;
+    bgColor: string;
 }
