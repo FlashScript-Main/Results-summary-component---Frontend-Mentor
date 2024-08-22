@@ -10,7 +10,7 @@ const Result = () => {
                         {result.resultTitle}
                     </h5>
 
-                    <div className={`w-[8.5rem] md:w-[10.5rem] h-[8.4rem] md:h-[10.5rem] | bg-gradient-to-b from-gradients-circle-violet-blue/95 from-0% to-gradients-circle-persian-blue to-95% | grid place-content-center rounded-full | `}>
+                    <div className={`w-[8.5rem] md:w-[11rem] h-[8.4rem] md:h-[11rem] | bg-gradient-to-b from-gradients-circle-violet-blue/95 from-0% to-gradients-circle-persian-blue to-95% | grid place-content-center rounded-full | `}>
                         <h2 className={`mb-1 | text-5xl md:text-6xl text-neutral-white font-bold |  | `}>
                             {result.resultScore}
                         </h2>

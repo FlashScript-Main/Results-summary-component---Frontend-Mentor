@@ -4,7 +4,7 @@ const Summary = () => {
 
     return (
         <section className={` |  | md:basis-1/2 | `}>
-            <div className={`max-w-[19.5rem] mx-auto mt-6 |  | grid | `}>
+            <div className={`max-w-[19.5rem] md:max-w-[17.5rem] mx-auto mt-6 |  | grid | `}>
                 <h4 className={`mb-6 | text-xl text-neutral-dark-gray-blue font-bold |  | `}>
                     {summaryTitle}
                 </h4>
@@ -21,13 +21,13 @@ const Summary = () => {
                                     className={`mr-3 |  |  | `}
                                 />
 
-                                <h5 className={` | text-base ${summary.textColor} font-semibold |  | `}>
+                                <h5 className={` | text-base md:text-lg ${summary.textColor} font-semibold |  | `}>
                                     {summary.category}
                                 </h5>
                             </div>
 
                             <div>
-                                <p className={` | text-base text-slate-400/100 font-bold |  | `}>
+                                <p className={` | text-base md:text-lg text-slate-400/100 font-bold |  | `}>
                                     <span className={` | text-neutral-dark-gray-blue font-extrabold |  | `}>
                                         {summary.score} {" "} 
                                     </span>
