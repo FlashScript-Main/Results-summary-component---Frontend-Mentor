@@ -3,7 +3,7 @@ const FlashScript = () => {
 
     return (
         <a 
-            href="https://github.com/FlashScript-Main/Workit-landing-page---Frontend-Mentor"
+            href="https://github.com/FlashScript-Main/Results-summary-component---Frontend-Mentor"
             target="_blank"
             className="fixed right-4 bottom-4 md:right-8 md:bottom-8 rounded-full cursor-pointer lg:grayscale hover:grayscale-0"
         >
