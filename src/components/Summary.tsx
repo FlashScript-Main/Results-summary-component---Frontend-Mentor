@@ -1,4 +1,5 @@
 import { summaryInfo, summaryTitle } from "../constants"
+import CountUp from 'react-countup';
 
 const Summary = () => {
 
@@ -29,7 +30,11 @@ const Summary = () => {
                             <div>
                                 <p className={` | text-base md:text-lg text-slate-400/100 font-bold |  | `}>
                                     <span className={` | text-neutral-dark-gray-blue font-extrabold |  | `}>
-                                        {summary.score} {" "} 
+                                        <CountUp 
+                                            end={summary.score} 
+                                            duration={2}
+                                            delay={2}
+                                        /> {" "} 
                                     </span>
                                     / 100
                                 </p>

@@ -1,4 +1,5 @@
 import { resultInfo } from "../constants"
+import CountUp from 'react-countup';
 
 const Result = () => {
 
@@ -12,7 +13,11 @@ const Result = () => {
 
                     <div className={`w-[8.5rem] md:w-[11rem] h-[8.4rem] md:h-[11rem] | bg-gradient-to-b from-gradients-circle-violet-blue/95 from-0% to-gradients-circle-persian-blue to-95% | grid place-content-center rounded-full | bounce-in-zoomout`}>
                         <h2 className={`mb-1 | text-5xl md:text-6xl text-neutral-white font-bold |  | `}>
-                            {result.resultScore}
+                            <CountUp 
+                                end={result.resultScore} 
+                                duration={2}
+                                delay={3}
+                            />
                         </h2>
                         <span className={` | text-sm md:text-base text-slate-400/90 font-bold |  | `}>
                             {result.resultValue}
