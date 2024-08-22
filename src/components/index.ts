@@ -1,17 +1,9 @@
 import FlashScript from "./FlashScript";
-import Header from "./Header";
-import Hero from "./Hero";
-import Features from "./Features";
-import Testimonial from "./Testimonial";
-import Footer from "./Footer";
-import Button from "./Button";
+import Result from "./Result";
+import Summary from "./Summary";
 
 export {
     FlashScript,
-    Header,
-    Hero,
-    Features,
-    Testimonial,
-    Footer,
-    Button
+    Result,
+    Summary
 }

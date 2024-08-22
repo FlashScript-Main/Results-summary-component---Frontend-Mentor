@@ -1,11 +1,17 @@
-import { FlashScript } from "./components"
+import { FlashScript, Result, Summary } from "./components"
 
 const App = () => {
 
     return (
-        <div className="w-full">
+        <main className="w-full font-hanken">
+            <div className={` |  | flex flex-col | `}>
+                <Result />
+
+                <Summary />
+            </div>
+
             <FlashScript />
-        </div>
+        </main>
     )
 
 }
