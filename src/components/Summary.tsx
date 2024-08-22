@@ -3,7 +3,7 @@ import { summaryInfo, summaryTitle } from "../constants"
 const Summary = () => {
 
     return (
-        <section>
+        <section className={` |  | md:basis-1/2 | `}>
             <div className={`max-w-[19.5rem] mx-auto mt-6 |  | grid | `}>
                 <h4 className={`mb-6 | text-xl text-neutral-dark-gray-blue font-bold |  | `}>
                     {summaryTitle}
@@ -38,7 +38,7 @@ const Summary = () => {
                     ))
                 }
 
-                <button className={`py-4 mt-2 mb-6 | text-lg text-neutral-white bg-neutral-dark-gray-blue font-bold | grid place-content-center rounded-full | `}>
+                <button className={`py-4 mt-2 mb-6 | text-lg text-neutral-white bg-neutral-dark-gray-blue hover:bg-gradient-to-t hover:from-gradients-background-light-royal-blue hover:from-20% hover:to-gradients-background-light-slate-blue font-bold | grid place-content-center rounded-full | transition-colors`}>
                     Continue
                 </button>
             </div>
